@@ -28,6 +28,6 @@ variable "volume_size" {
 
 variable "ami-id" {
   type        = string
+  default     = ""
   description = "A custom AMI ID to use on the EC2 workers."
-  default     = null
 }
